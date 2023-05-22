@@ -1,0 +1,11 @@
+<div id="your_question" class="border-start border-secondary border-5 mx-2">
+    <%= params[:question]%>
+    <p> --You </p>
+</div>
+
+<div id="coach_answer" class="border-start border-secondary border-5 mx-2">
+    <%= @answer %>
+    <p> --Your coach </p>
+</div>
+
+<%= link_to "Ask a new question", root_path %>
